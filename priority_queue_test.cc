@@ -5,7 +5,7 @@
 //   ... test body ...
 // }
 
-
+// 탭수가 
 TEST(PriorityQueueTest,Trivial){
 	templatePriorityQueue<int> expTarget;
 
@@ -49,7 +49,7 @@ TEST(PriorityQueueTest,Trivial){
         /**/
 	
 }
-
+// main함수가 두군데 파일에 존재함 (main.cc)
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
